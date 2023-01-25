@@ -1,0 +1,222 @@
+body{ text-align: center;
+    margin:0px;
+    background-color: white;
+    color: #40514E;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    
+    }               
+                         /*containers*/
+.top-container{
+    margin: 0;
+    padding-top: 100px;
+    position: relative;
+    background-color: #EAF6F6;
+}
+.middle-container{
+    margin-top: 100px;
+}
+.bottom-container{
+    background-color: #66BFBF;
+   height: 100px;
+   padding: 50px;
+   position: relative;
+}
+
+                               /*headings*/
+
+h1{ font-size: 90px;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 50px;
+    margin-bottom: 0;
+    color: #66BFBF;
+}
+h2{
+    color: #66BFBF;
+    font-size: xx-large;
+    
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+     color:#11999E;
+}
+
+                       /*images*/
+.bottom-cloud{
+    position: absolute;
+    left: 310px;
+
+}
+.top-cloud{
+    position: absolute;
+   right: 310px; 
+   top: 50px;
+      
+}
+.my-photo{
+    border-radius: 50%;
+    width: 15%;
+    height: 15%;
+ 
+}
+.first-h2{
+    font-family: 'kalam',cursive;
+    font-size : 2.5rem;
+    margin-top: 0px;
+} 
+/*anchor tag*/
+
+a{
+    color: #11999E;
+}
+.skill-1img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+    
+}
+
+.skill-row1{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+.skill-row2{
+    width: 50%;
+   margin: 100px 100px 100px 400px;
+    text-align: left;
+    position: relative;
+
+}
+.skill-2img{
+    width: 125px;
+    height: 37.5px;
+    float: right;
+    position: absolute;
+    right: 25px;
+    
+}
+.skillheading{
+    margin-right: 30px;
+}    
+
+                           /* horizontal line*/
+hr{
+    width: 5%;
+    border-style: none;
+    border-top-style:dotted ;
+    border-width: 10px;
+    color:lightgray;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.mid-para1{
+    margin: auto;
+    width: 25%;
+}
+.para1{
+    text-align: left;
+    clear: left;
+    padding-left: 20px;
+    padding-right: 100px;
+}
+.para-contact{
+   margin: auto;
+   width: 35%;
+}
+.paraskill-1{
+    clear: left;
+    margin-left: 20px;
+}
+
+p{
+    font-size: 18px;
+}
+table, th, td {
+    border: 2px solid  black;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+    
+  }
+  td{
+    padding: 10px;
+  }
+table{
+   width: 700px;
+   height: 250px;
+   margin: 0 auto;
+  
+   
+}
+.space{
+    margin-bottom: 70px;
+}
+
+/* BUTTON CSS*/
+
+    .btn {
+
+        background: #11cdd4;
+        background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+        background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+        -webkit-border-radius: 8;
+        -moz-border-radius: 8;
+        border-radius: 8px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
+      
+      .btn:hover {
+        background: #30e3cb;
+        background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+        text-decoration: none;
+      }
+.footer-para{
+    color: #EAF6F6;
+    margin-top: 70px;
+    
+}
+.Linkedin-link{
+    position: absolute;
+    left: 650px;
+    color: #11999E;
+    
+}
+
+.mail-link{
+    position: absolute;
+    right: 650px;
+    
+}
+a{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    
+}
+a:hover{
+   color: #EAF6F6;
+        
+        
+}
+tbody tr:nth-child(odd) {
+    background-color:#BCEAD5 ;
+  }
+  tbody tr:nth-child(even) {
+    background-color: #DEF5E5;
+  }
